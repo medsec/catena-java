@@ -16,7 +16,7 @@ import main.java.components.hash.algorithms.Blake2b;
 
 public class SaltMixTest {
 	
-	private String path = "src/test/resources/saltmixAnyFull.json";
+	private String path = "src/test/resources/testvectors/saltmixAnyFull.json";
 	private File testFileSaltMix = new File(path);
 	
 	Helper helper = new Helper();

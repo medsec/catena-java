@@ -33,7 +33,7 @@ public class Blake2bTest {
 	private Helper helper = new Helper();
 	
 	private static final String testVectorSource = 
-			"src/test/resources/blake2b.json";
+			"src/test/resources/testvectors/blake2b.json";
 	private static final File fileBlake2b = new File(testVectorSource);
 	
 	String input1 = "";

@@ -17,7 +17,7 @@ public class LSBIndexTest {
 	Helper helper = new Helper();
 	
 	
-	String pathlsbIndex = "src/test/resources/lsbIndex.json";
+	String pathlsbIndex = "src/test/resources/testvectors/lsbIndex.json";
 	File fileLSBIndex = new File(pathlsbIndex); 
 	
 	@Test

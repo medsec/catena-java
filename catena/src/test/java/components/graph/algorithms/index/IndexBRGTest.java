@@ -20,13 +20,13 @@ public class IndexBRGTest {
 	
 	private IdxInterface idxBrg = new IndexBRG();
 	
-	private String pathBrgAny = "src/test/resources/brgAny.json";
+	private String pathBrgAny = "src/test/resources/testvectors/brgAny.json";
 	private File fileBrgAny = new File(pathBrgAny);
 	
-	private String pathbrgAnyFull = "src/test/resources/brgAnyFull.json";
+	private String pathbrgAnyFull = "src/test/resources/testvectors/brgAnyFull.json";
 	private File filebrgAnyFull = new File(pathbrgAnyFull);
 	
-	private String pathbrgIndex = "src/test/resources/brgIndex.json";
+	private String pathbrgIndex = "src/test/resources/testvectors/brgIndex.json";
 	private File filebrgIndex = new File(pathbrgIndex);
 	
 	

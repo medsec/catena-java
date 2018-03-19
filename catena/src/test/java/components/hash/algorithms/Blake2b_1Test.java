@@ -19,7 +19,7 @@ public class Blake2b_1Test {
 	Helper helper = new Helper();
 	
 	private static final String testVectorSource = 
-			"src/test/resources/blake2b1.json";
+			"src/test/resources/testvectors/blake2b1.json";
 	private static final File file = new File(testVectorSource);
 	
 	@Test

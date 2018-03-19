@@ -16,10 +16,10 @@ public class Argon2CFTest {
 
 	Helper helper = new Helper();
 	
-	String pathGL = "src/test/resources/cfArgon2Gl.json";
+	String pathGL = "src/test/resources/testvectors/cfArgon2Gl.json";
 	File fileGL = new File(pathGL);
 	
-	String pathGB = "src/test/resources/cfArgon2Gb.json";
+	String pathGB = "src/test/resources/testvectors/cfArgon2Gb.json";
 	File fileGB = new File(pathGB);
 	
 	@Test

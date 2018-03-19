@@ -29,42 +29,42 @@ public class DefaultInstancesTest {
 //	private File butterflyFileFull = new File(pathButterflyFull);
 	
 	
-	private String pathDragonflyReduced = "src/test/resources/catenaDragonflyReduced.json";
+	private String pathDragonflyReduced = "src/test/resources/testvectors/catenaDragonflyReduced.json";
 	private File fileDragonflyReduced = new File(pathDragonflyReduced);
 	
-	private String pathDragonflyFullReduced = "src/test/resources/catenaDragonflyFullReduced.json";
+	private String pathDragonflyFullReduced = "src/test/resources/testvectors/catenaDragonflyFullReduced.json";
 	private File fileDragonflyFullReduced = new File(pathDragonflyFullReduced);
 	
-	private String pathButterflyReduced = "src/test/resources/catenaButterflyReduced.json";
+	private String pathButterflyReduced = "src/test/resources/testvectors/catenaButterflyReduced.json";
 	private File butterflyFileReduced = new File(pathButterflyReduced);
 	
-	private String pathButterflyFullReduced = "src/test/resources/catenaButterflyFullReduced.json";
+	private String pathButterflyFullReduced = "src/test/resources/testvectors/catenaButterflyFullReduced.json";
 	private File butterflyFileFullReduced = new File(pathButterflyFullReduced);
 	
 	
-	private String pathcatenaHorseflyFullReduced ="src/test/resources/catenaHorseflyFullReduced.json";
+	private String pathcatenaHorseflyFullReduced ="src/test/resources/testvectors/catenaHorseflyFullReduced.json";
 	private File filecatenaHorseflyFullReduced = new File(pathcatenaHorseflyFullReduced);
 	
-	private String pathcatenaLanternflyFullReduced ="src/test/resources/catenaLanternflyFullReduced.json";
+	private String pathcatenaLanternflyFullReduced ="src/test/resources/testvectors/catenaLanternflyFullReduced.json";
 	private File filecatenaLanternflyFullReduced = new File(pathcatenaLanternflyFullReduced);
 	
-	private String pathcatenaMydasflyFullReduced ="src/test/resources/catenaMydasflyFullReduced.json";
+	private String pathcatenaMydasflyFullReduced ="src/test/resources/testvectors/catenaMydasflyFullReduced.json";
 	private File filecatenaMydasflyFullReduced = new File(pathcatenaMydasflyFullReduced);
 	
-	private String pathcatenaStoneflyFullReduced ="src/test/resources/catenaStoneflyFullReduced.json";
+	private String pathcatenaStoneflyFullReduced ="src/test/resources/testvectors/catenaStoneflyFullReduced.json";
 	private File filecatenaStoneflyFullReduced = new File(pathcatenaStoneflyFullReduced);
 	
 	
-	private String pathcatenaHorseflyReduced ="src/test/resources/catenaHorseflyReduced.json";
+	private String pathcatenaHorseflyReduced ="src/test/resources/testvectors/catenaHorseflyReduced.json";
 	private File filecatenaHorseflyReduced = new File(pathcatenaHorseflyReduced);
 	
-	private String pathcatenaLanternflyReduced ="src/test/resources/catenaLanternflyReduced.json";
+	private String pathcatenaLanternflyReduced ="src/test/resources/testvectors/catenaLanternflyReduced.json";
 	private File filecatenaLanternflyReduced = new File(pathcatenaLanternflyReduced);
 	
-	private String pathcatenaMydasflyReduced ="src/test/resources/catenaMydasflyReduced.json";
+	private String pathcatenaMydasflyReduced ="src/test/resources/testvectors/catenaMydasflyReduced.json";
 	private File filecatenaMydasflyReduced = new File(pathcatenaMydasflyReduced);
 	
-	private String pathcatenaStoneflyReduced ="src/test/resources/catenaStoneflyReduced.json";
+	private String pathcatenaStoneflyReduced ="src/test/resources/testvectors/catenaStoneflyReduced.json";
 	private File filecatenaStoneflyReduced = new File(pathcatenaStoneflyReduced);
 	
 	@Test

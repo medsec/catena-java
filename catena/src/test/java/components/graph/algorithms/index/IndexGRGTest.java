@@ -22,13 +22,13 @@ public class IndexGRGTest {
 
 	Helper helper = new Helper();
 
-	private String pathGrgIndex = "src/test/resources/grgIndex.json";
+	private String pathGrgIndex = "src/test/resources/testvectors/grgIndex.json";
 	private File fileGrgIndex = new File(pathGrgIndex);
 	
-	private String pathGrgAny = "src/test/resources/grgAny.json";
+	private String pathGrgAny = "src/test/resources/testvectors/grgAny.json";
 	private File fileGrgAny = new File(pathGrgAny);
 	
-	private String pathGrgAnyFull = "src/test/resources/grgAnyFull.json";
+	private String pathGrgAnyFull = "src/test/resources/testvectors/grgAnyFull.json";
 	private File fileGrgAnyFull = new File(pathGrgAnyFull);
 	
 	@Test

@@ -17,41 +17,41 @@ public class CatenaTest {
 	
 	Helper helper = new Helper();
 	
-	private String pathHInit = "src/test/resources/hInitAnyFull.json";
+	private String pathHInit = "src/test/resources/testvectors/hInitAnyFull.json";
 	private File fileHInit = new File(pathHInit);
 	
 	
-	private String pathtweakButterfly = "src/test/resources/tweakButterfly.json";
+	private String pathtweakButterfly = "src/test/resources/testvectors/tweakButterfly.json";
 	private File filetweakButterfly = new File(pathtweakButterfly);
 	
-	private String pathtweakButterflyFull = "src/test/resources/tweakButterflyFull.json";
+	private String pathtweakButterflyFull = "src/test/resources/testvectors/tweakButterflyFull.json";
 	private File filetweakButterflyFull = new File(pathtweakButterflyFull);
 	
-	private String pathtweakDragonfly = "src/test/resources/tweakDragonfly.json";
+	private String pathtweakDragonfly = "src/test/resources/testvectors/tweakDragonfly.json";
 	private File filetweakDragonfly = new File(pathtweakDragonfly);
 	
-	private String pathtweakDragonflyFull = "src/test/resources/tweakDragonflyFull.json";
+	private String pathtweakDragonflyFull = "src/test/resources/testvectors/tweakDragonflyFull.json";
 	private File filetweakDragonflyFull = new File(pathtweakDragonflyFull);
 	
 	
-	private String pathFlapDragonfly = "src/test/resources/flapDragonfly.json";
+	private String pathFlapDragonfly = "src/test/resources/testvectors/flapDragonfly.json";
 	private File fileFlapDragonfly = new File(pathFlapDragonfly);
 	
-	private String pathFlapDragonflyFull = "src/test/resources/flapDragonflyFull.json";
+	private String pathFlapDragonflyFull = "src/test/resources/testvectors/flapDragonflyFull.json";
 	private File fileFlapDragonflyFull = new File(pathFlapDragonflyFull);
 	
-	private String pathFlapButterfly = "src/test/resources/flapButterfly.json";
+	private String pathFlapButterfly = "src/test/resources/testvectors/flapButterfly.json";
 	private File fileFlapButterfly = new File(pathFlapButterfly);
 	
-	private String pathFlapButterflyFull = "src/test/resources/flapButterflyFull.json";
+	private String pathFlapButterflyFull = "src/test/resources/testvectors/flapButterflyFull.json";
 	private File fileFlapButterflyFull = new File(pathFlapButterflyFull);
 	
 	
 	
-	private String pathciUpdateDragonflyReduced = "src/test/resources/ciUpdateDragonflyReduced.json";
+	private String pathciUpdateDragonflyReduced = "src/test/resources/testvectors/ciUpdateDragonflyReduced.json";
 	private File fileciUpdateDragonflyReduced = new File(pathciUpdateDragonflyReduced);
 	
-	private String pathciUpdateKeyedDragonflyReduced = "src/test/resources/ciUpdateKeyedDragonflyReduced.json";
+	private String pathciUpdateKeyedDragonflyReduced = "src/test/resources/testvectors/ciUpdateKeyedDragonflyReduced.json";
 	private File fileciUpdateKeyedDragonflyReduced = new File(pathciUpdateKeyedDragonflyReduced);
 	
 //	private String pathkeyDerivationButterfly = "src/test/resources/keyDerivationButterfly.json";
@@ -60,7 +60,7 @@ public class CatenaTest {
 //	private String pathkeyDerivationButterflyFull = "src/test/resources/keyDerivationButterflyFull.json";
 //	private File filekeyDerivationButterflyFull = new File(pathkeyDerivationButterflyFull);
 	
-	private String pathkeyDerivationButterflyReduced = "src/test/resources/keyDerivationButterflyReduced.json";
+	private String pathkeyDerivationButterflyReduced = "src/test/resources/testvectors/keyDerivationButterflyReduced.json";
 	private File filekeyDerivationButterflyReduced = new File(pathkeyDerivationButterflyReduced);
 	
 //	private String pathkeyDerivationDragonfly = "src/test/resources/keyDerivationDragonfly.json";
@@ -69,7 +69,7 @@ public class CatenaTest {
 //	private String pathkeyDerivationDragonflyFull = "src/test/resources/keyDerivationDragonflyFull.json";
 //	private File filekeyDerivationDragonflyFull = new File(pathkeyDerivationDragonflyFull);
 	
-	private String pathkeyDerivationDragonflyReduced = "src/test/resources/keyDerivationDragonflyReduced.json";
+	private String pathkeyDerivationDragonflyReduced = "src/test/resources/testvectors/keyDerivationDragonflyReduced.json";
 	private File filekeyDerivationDragonflyReduced = new File(pathkeyDerivationDragonflyReduced);
 	
 //	private String pathkeyedHashButterfly = "src/test/resources/keyedHashButterfly.json";
@@ -78,7 +78,7 @@ public class CatenaTest {
 //	private String pathkeyedHashButterflyFull = "src/test/resources/keyedHashButterflyFull.json";
 //	private File filekeyedHashButterflyFull = new File(pathkeyedHashButterflyFull);
 	
-	private String pathkeyedHashButterflyReduced = "src/test/resources/keyedHashButterflyReduced.json";
+	private String pathkeyedHashButterflyReduced = "src/test/resources/testvectors/keyedHashButterflyReduced.json";
 	private File filekeyedHashButterflyReduced = new File(pathkeyedHashButterflyReduced);
 	
 //	private String pathkeyedHashDragonfly = "src/test/resources/keyedHashDragonfly.json";
@@ -87,34 +87,34 @@ public class CatenaTest {
 //	private String pathkeyedHashDragonflyFull = "src/test/resources/keyedHashDragonflyFull.json";
 //	private File filekeyedHashDragonflyFull = new File(pathkeyedHashDragonflyFull);
 	
-	private String pathkeyedHashDragonflyReduced = "src/test/resources/keyedHashDragonflyReduced.json";
+	private String pathkeyedHashDragonflyReduced = "src/test/resources/testvectors/keyedHashDragonflyReduced.json";
 	private File filekeyedHashDragonflyReduced = new File(pathkeyedHashDragonflyReduced);
 	
-	private String pathserverReliefClientButterflyReducedDifferentG = "src/test/resources/serverReliefClientButterflyReducedDifferentG.json";
+	private String pathserverReliefClientButterflyReducedDifferentG = "src/test/resources/testvectors/serverReliefClientButterflyReducedDifferentG.json";
 	private File fileserverReliefClientButterflyReducedDifferentG = new File(pathserverReliefClientButterflyReducedDifferentG);
 	
-	private String pathserverReliefClientButterflyReduced = "src/test/resources/serverReliefClientButterflyReduced.json";
+	private String pathserverReliefClientButterflyReduced = "src/test/resources/testvectors/serverReliefClientButterflyReduced.json";
 	private File fileserverReliefClientButterflyReduced = new File(pathserverReliefClientButterflyReduced);
 	
-	private String pathserverReliefClientDragonflyReduced = "src/test/resources/serverReliefClientDragonflyReduced.json";
+	private String pathserverReliefClientDragonflyReduced = "src/test/resources/testvectors/serverReliefClientDragonflyReduced.json";
 	private File fileserverReliefClientDragonflyReduced = new File(pathserverReliefClientDragonflyReduced);
 	
-	private String pathserverReliefServerButterflyReduced = "src/test/resources/serverReliefServerButterflyReduced.json";
+	private String pathserverReliefServerButterflyReduced = "src/test/resources/testvectors/serverReliefServerButterflyReduced.json";
 	private File fileserverReliefServerButterflyReduced = new File(pathserverReliefServerButterflyReduced);
 	
-	private String pathserverReliefServerDragonflyReduced = "src/test/resources/serverReliefServerDragonflyReduced.json";
+	private String pathserverReliefServerDragonflyReduced = "src/test/resources/testvectors/serverReliefServerDragonflyReduced.json";
 	private File fileserverReliefServerDragonflyReduced = new File(pathserverReliefServerDragonflyReduced);
 	
-	private String pathproofOfWorkServerSaltButterflyReduced = "src/test/resources/proofOfWorkServerSaltButterflyReduced.json";
+	private String pathproofOfWorkServerSaltButterflyReduced = "src/test/resources/testvectors/proofOfWorkServerSaltButterflyReduced.json";
 	private File fileproofOfWorkServerSaltButterflyReduced = new File(pathproofOfWorkServerSaltButterflyReduced);
 	
-	private String pathproofOfWorkServerPwdButterflyReduced = "src/test/resources/proofOfWorkServerPwdButterflyReduced.json";
+	private String pathproofOfWorkServerPwdButterflyReduced = "src/test/resources/testvectors/proofOfWorkServerPwdButterflyReduced.json";
 	private File fileproofOfWorkServerPwdButterflyReduced = new File(pathproofOfWorkServerPwdButterflyReduced);
 	
-	private String pathproofOfWorkClientPwdButterflyReduced = "src/test/resources/proofOfWorkClientPwdButterflyReduced.json";
+	private String pathproofOfWorkClientPwdButterflyReduced = "src/test/resources/testvectors/proofOfWorkClientPwdButterflyReduced.json";
 	private File fileproofOfWorkClientPwdButterflyReduced = new File(pathproofOfWorkClientPwdButterflyReduced);
 	
-	private String pathproofOfWorkClientSaltButterflyReduced = "src/test/resources/proofOfWorkClientSaltButterflyReduced.json";
+	private String pathproofOfWorkClientSaltButterflyReduced = "src/test/resources/testvectors/proofOfWorkClientSaltButterflyReduced.json";
 	private File fileproofOfWorkClientSaltButterflyReduced = new File(pathproofOfWorkClientSaltButterflyReduced);
 	
 	

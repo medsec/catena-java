@@ -22,13 +22,13 @@ import main.java.components.hash.algorithms.Blake2b_1;
 public class IndexSBRGTest {
 	Helper helper = new Helper();
 
-	private String pathSbrgIndex = "src/test/resources/sbrgIndex.json";
+	private String pathSbrgIndex = "src/test/resources/testvectors/sbrgIndex.json";
 	private File fileSbrgIndex = new File(pathSbrgIndex);
 	
-	private String pathSbrgAny = "src/test/resources/sbrgAny.json";
+	private String pathSbrgAny = "src/test/resources/testvectors/sbrgAny.json";
 	private File fileSbrgAny = new File(pathSbrgAny);
 	
-	private String pathSbrgAnyFull = "src/test/resources/sbrgAnyFull.json";
+	private String pathSbrgAnyFull = "src/test/resources/testvectors/sbrgAnyFull.json";
 	private File fileSbrgAnyFull = new File(pathSbrgAnyFull);
 	
 

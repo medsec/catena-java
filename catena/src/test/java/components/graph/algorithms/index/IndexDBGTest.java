@@ -21,13 +21,13 @@ public class IndexDBGTest {
 	
 	Helper helper = new Helper();
 
-	private String pathDbhAny = "src/test/resources/dbhAny.json";
+	private String pathDbhAny = "src/test/resources/testvectors/dbhAny.json";
 	private File fileDbhAny = new File(pathDbhAny);
 	
-	private String pathDbhAnyFull = "src/test/resources/dbhAnyFull.json";
+	private String pathDbhAnyFull = "src/test/resources/testvectors/dbhAnyFull.json";
 	private File fileDbhAnyFull = new File(pathDbhAnyFull);
 	
-	private String pathDbhIndex = "src/test/resources/dbhIndex.json";
+	private String pathDbhIndex = "src/test/resources/testvectors/dbhIndex.json";
 	private File fileDbhIndex = new File(pathDbhIndex);
 
 	@Test
